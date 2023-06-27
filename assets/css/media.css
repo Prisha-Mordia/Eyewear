@@ -1,0 +1,1896 @@
+:root{
+	--primary-color:#7AE7C7;
+	--secondary-color:#6D8386;
+	--color:#182f35;
+	--white-color:#FFFFFF;
+	--black-color:#07242C;
+	--black-800:#626262;
+	--black-700:#4A5E61;
+	--Montserrat:'Montserrat';
+	--Yeseva-One:'Yeseva One';
+	--fs-14:14px;
+	--fs-16:16px;
+	--fs-20:20px;
+	--fs-22:22px;
+	--fs-24:24px;
+	--fs-36:36px;
+	--fs-55:55px;
+	--fs-70:70px;
+	--fw-400:400;
+	--fw-500:500;
+	--fw-600:600;
+	--fw-700:700;
+	--fw-900:900;
+	--lh:1.5;
+	--padding-left:12px;
+	--padding-right:12px;
+	--bg-color:#112429;
+}
+
+@media (max-width:575px) {
+    :root{
+    --fs-14:14px;
+	--fs-16:13px;
+	--fs-20:20px;
+	--fs-22:19px;
+	--fs-24:24px;
+	--fs-36:36px;
+	--fs-55:41px;
+	--fs-70:44px;
+    }
+
+    
+    .d-xs-flex{
+        display: flex;
+    }
+    .d-xs-none{
+        display: none;
+    }
+    .xs-text-center{
+        text-align: center;
+    }
+    .xs-justify-left{
+        justify-content: flex-start;
+        display: flex;
+    }
+    .xs-justify-center{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banner-content{
+        padding:0px 0 0px 0;
+        margin:0px 0 0 0;
+    }
+    .banner-content-1{
+        margin:0px 50px 0 50px;
+    }
+    .head-2 .logo{
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+    }
+    .toggle nav{
+        height: 10px;
+    }
+    .toggle{
+        justify-content: flex-end;
+        display: flex;
+    }
+    .banner-content{
+        padding:30px 0 30px 0;
+    }
+    .banner-content h1{
+        margin:20px 0 20px;
+        line-height: 55px;
+    }
+    .banner{
+        background-size: 320px;
+        background-position: -160px -180px;
+        top:0;
+        left:0;
+    }
+    .btn1{
+        padding:10px 20px;
+    }
+    .p-1-img img:first-child{
+        width: 310px;
+    }
+    .p-1-img::after{
+        width:305px;
+        height:305px;
+        left: 24%;
+    }
+    .p-1-img-2{
+        width: 48px;
+        left: 22%;
+    }
+    .p-1-img-3{
+        width: 99px;
+        right: 27%;
+    }
+    .banner-2 {
+        margin:30px;
+    }
+    .quote{
+        margin: 0 auto ;
+    }
+    .quote img{
+        width: 55px;
+    }
+    .banner-2-img img{
+        width: 153px;
+    }
+    .banner-2 .thought h2{
+        font-size:35px;
+        text-align: center  ;
+    }
+    .about-1{
+        background-position:-650px 100px;
+    }
+    .about-1 .about-text h3{
+        margin-top: 20px;
+        font-size: 41px;
+    }
+    .about-1 .about-text span{
+        font-size: 18px;
+        margin: 15px 40px ;
+    }
+    .about-1 .about-text p{
+        font-size: 13px;
+        margin: 0 40px ;
+    }
+    .about-1 .about-text img{
+        margin: 40px 0;
+    }
+    .down-arrow {
+        margin:5px auto;
+    }
+    .about-2 .book-email{
+        padding: 20px 33px;
+        margin: 0 27px;
+        text-align: center;
+        flex-direction: column-reverse;
+        display: flex;
+    }
+    .book-email h3{
+        font-size: 41px;
+        padding: 0 30px;
+    }
+    .book-email p{
+        font-size:var(--fs-16);
+        padding: 30px 0;
+    }
+    label {
+      font-size:18px;
+    }
+    .about-row h2{
+        text-align: center;
+        font-size:41px;
+        padding: 20px 50px;
+        margin-top: 60px;
+    }
+    .services-row-1{
+        width: 100%;
+        background-size: contain;
+        padding: 100px 50px 0 50px;
+        background-position:0px 0px;
+    }
+    .services-cantenet{
+        margin: 30px 0 0 50px;
+    }
+    .services-cantenet h3{
+        font-size: 27px;
+        width:70%;
+        margin-bottom:15px;
+        padding-bottom:10px;
+    }
+    .services-cantenet h3 i{
+        font-size:12px;
+        margin: 0 20px 0 0;
+    }
+    .services-cantenet span{
+        font-size: 13px;
+    }
+    .sevice-2{
+        border-radius:15px;
+        margin:100px 0;
+    }
+    .sevice-2-bg{
+        padding: 0 33px ;
+        margin: 0 12.5px;
+    }
+    .sevice-2-img{
+        width:436.05px;
+        margin:-40px 0 25px 25px;
+    }
+    .services-content-2 h2{
+        font-size: 41px;
+        padding-top:1px;
+    }
+    .services-content-2 h5{
+        font-size: 15px;
+        padding: 10px 22px 20px 22px;
+    }
+    .services-content-2 p{
+        font-size: 13px;
+        padding: 20px 22px 10px 22px;
+    }
+    .services-content-2-img{
+        width:400px;
+        padding:30px 0;
+        margin-left: 45px;
+    }
+    .contact-1{
+        padding: 50px 20px 20px 20px;
+    }
+    .contact-call{
+        margin:0;
+    }
+    .services-3{
+        padding: 0 33px ;
+        margin: 0 12.5px;
+    }
+    .graph-main{
+        padding:30px 10% ;
+    }
+    .graph-content p{
+        font-size: 18px;
+    }
+    .progress-line ul li{
+        font-size: 11px;
+    }
+    .progress-line {
+        padding: 5px 0px;
+    }
+    .Popural-guides-img{
+        display: contents;
+    }
+    .Popural-guides-img img{
+        margin-top: 80px;
+    }
+    .Popural-guides-content{
+        justify-content: center;
+        display: grid;
+        padding-left: 50px;
+    }
+    .Popural-guides-heda span{
+        margin-bottom: 20px;
+    }
+    .upcoming-seminar{
+        padding: 60px 40px;
+    }
+    .seminar-content{
+        padding-left: 0px;
+        font-size: 15px;
+    }
+    .seminar-date{
+        padding: 25px 0;
+        border-right: 0;
+    }
+    .seminar-img-1 img{
+        width: 484px;
+    }
+    .Coaching-scheduale-2-head h2{
+        font-size: 41px;
+        padding:100px 0 40px 0;
+    }
+    .Coaching-scheduale-2-head p{
+        font-size: 13px;
+        padding-bottom:40px;
+    }
+
+    .review-bottom{
+        padding:20px 0;
+    }
+    .review-content p{
+        padding:0 80px;
+    }
+    .contact-form form input, textarea{
+        font-size :10px;
+    }
+}
+@media(min-width:576px){
+    .col-sm-1{
+        width: 8.33%;
+    }
+    .col-sm-2{
+        width: 16.66%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33.33%;
+    }
+    .col-sm-5{
+        width: 41.66%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-7{
+        width: 58.33%;
+    }
+    .col-sm-8{
+        width: 66.66%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-10{
+        width: 83.33%;
+    }
+    .col-sm-11{
+        width: 91.66%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+    :root{
+        --fs-14:14px;
+        --fs-16:13px;
+        --fs-20:20px;
+        --fs-22:19px;
+        --fs-24:24px;
+        --fs-36:36px;
+        --fs-55:55px;
+        --fs-70:44px;
+    }
+    /* .container{
+        max-width: 540px;
+    } */
+    .sm-text-center{
+        text-align: center;
+    }
+    .d-sm-none{
+        display: none;
+    }
+    .d-sm-flex{
+        display: flex;
+    }
+    .sm-justify-left{
+        justify-content: flex-start;
+    }
+    .banner-content{
+        padding:0px 0 0px 0;
+        margin:0px 0 0 0;
+    }
+    .banner-content-1{
+        margin:0px 50px 0 50px;
+    }
+    .head-2 .logo{
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+    }
+    .toggle{
+        justify-content: flex-end;
+        display: flex;
+    }
+    .banner-content{
+        padding:30px 0 30px 0;
+    }
+    .banner-content h1{
+        margin:20px 0 20px;
+        padding: 0 100px;
+        line-height: 55px;
+    }
+    .banner{
+        background-size: 320px;
+        background-position: -160px -180px;
+        top:0;
+        left:0;
+    }
+    .btn1{
+        padding:10px 20px;
+    }
+    .p-1-img img:first-child{
+        width: 311px;
+    }
+    .p-1-img::after{
+        width:310px;
+        height:310px;
+        left:23%;
+    }
+    .p-1-img-2{
+        width: 48px;
+        left: 22%;
+    }
+    .p-1-img-3{
+        width: 99px;
+        right: 27%;
+    }
+    .banner-2 {
+        margin:30px;
+    }
+    .quote{
+        margin: 0 auto ;
+    }
+    .quote img{
+        width: 55px;
+    }
+    .banner-2-img img{
+        width: 153px;
+    }
+    .banner-2 .thought h2{
+        font-size:35px;
+        text-align: center  ;
+    }
+    .about-1{
+        background-position:-650px 100px;
+    }
+    .about-1 .about-text h3{
+        margin-top: 20px;
+        font-size: 41px;
+    }
+    .about-1 .about-text span{
+        font-size: 18px;
+        margin: 15px 40px ;
+    }
+    .about-1 .about-text p{
+        font-size: 13px;
+        margin: 0 40px ;
+    }
+    .about-1 .about-text img{
+        margin: 40px 0;
+    }
+    .down-arrow {
+        margin:5px auto;
+    }
+    .about-2 .book-email{
+        padding: 20px 33px;
+        margin: 0 22px;
+        text-align: center;
+        flex-direction: column-reverse;
+        display: flex;
+    }
+    .book-email h3{
+        font-size: 41px;
+        padding: 0 30px;
+    }
+    .book-email p{
+        font-size:16px;
+        padding: 30px 0;
+    }
+    label {
+      font-size:18px;
+    }
+    .about-row h2{
+        text-align: center;
+        font-size:41px;
+        padding: 20px;
+        margin-top: 60px;
+    }
+    .services-row-1{
+        width: 100%;
+        background-size: contain;
+        padding: 100px 50px 0 50px;
+        background-position:0px 0px;
+    }
+    .services-cantenet{
+        margin: 30px 0 0 50px;
+    }
+    .services-cantenet h3{
+        font-size: 27px;
+        width:70%;
+        margin-bottom:15px;
+        padding-bottom:10px;
+    
+    }
+    .services-cantenet h3 i{
+        font-size:12px;
+        margin: 0 20px 0 0;
+        
+    }
+    .services-cantenet span{
+        font-size: 13px;
+    }
+    .sevice-2{
+        border-radius:15px;
+        margin:100px 0;
+    }
+    .sevice-2-bg{
+        padding: 0 33px ;
+        margin: 0 12.5px;
+    }
+    .sevice-2-img{
+        width:436.05px;
+        margin:-40px 0 25px 25px;
+    }
+    .services-content-2 h2{
+        font-size: 41px;
+        padding-top:1px;
+    }
+    .services-content-2 h5{
+        font-size: 15px;
+        /* padding:15px 0; */
+        padding: 10px 22px 20px 22px;
+    }
+    .services-content-2 p{
+        font-size: 13px;
+        /* padding:15px 0; */
+        padding: 20px 22px 10px 22px;
+    }
+    .services-content-2-img{
+        width:400px;
+        padding:30px 0;
+        margin-left: 45px;
+    }
+    .services-3{
+        padding: 0 33px ;
+        margin: 0 12.5px;
+    }
+    .graph-main{
+        padding:30px 10% ;
+    }
+    .graph-content p{
+        font-size: 18px;
+    }
+    .progress-line ul li{
+        font-size: 11px;
+    }
+    .progress-line {
+        padding: 5px 0px;
+    }
+    .progress-line {
+        padding: 5px 0px;
+    }
+    .Popural-guides-img{
+        display: contents;
+    }
+    .Popural-guides-img img{
+        margin-top: 80px;
+    }
+    .Popural-guides-content{
+        justify-content: center;
+        display: grid;
+        padding-left: 50px;
+    }
+    .upcoming-seminar{
+        padding: 60px 40px;
+    }
+    .upcoming-seminar-head h2{
+        font-size: 41px;
+    }
+    .seminar-content{
+        padding-left: 0px;
+        font-size: 15px;
+    }
+    .seminar-date{
+        padding: 25px 0;
+        border-right: 0;
+    }
+    .seminar-img-1 img{
+        width: 484px;
+    }
+    .Coaching-scheduale-2-head h2{
+        font-size: 41px;
+        padding:100px 0 40px 0;
+    }
+    .Coaching-scheduale-2-head p{
+        font-size: 13px;
+        padding-bottom:40px;
+    }
+   
+    .review-bottom{
+        padding:20px 0;
+    }
+    .review-title h2{
+        font-size: 41px;
+    }
+    .review-content p{
+        padding:0 80px;
+    }
+}
+@media(min-width:768px){
+    .col-md-1{
+        width: 8.33%;
+    }
+    .col-md-2{
+        width: 16.66%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.33%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83.33%;
+    }
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+    :root{
+        --fs-14:14px;
+        --fs-16:18px;
+        --fs-20:20px;
+        --fs-22:26px;
+        --fs-24:24px;
+        --fs-36:36px;
+        --fs-55:55px;
+        --fs-70:59px;
+    }
+    .contact-1{
+        flex-direction: row-reverse;
+    }
+    .md-text-center{
+        text-align: center;
+    }
+    .md-text-left{
+        text-align: left;
+    }
+    .d-md-none{
+        display: none;
+    }
+    .d-md-block{
+        display: block;
+    }
+    .d-md-flex{
+        display: flex;
+    }
+    .head-2{
+        position: fixed;
+    }
+    .hide-0{
+        width: 252px;
+        height: 700px;
+        top:   34px;
+        left: -80px;
+    }
+    .banner-content{
+        padding:0px 0 0px 0;
+        margin:0px 0 0 0;
+    }
+    .banner-content-1{
+        margin:0px 50px 0 50px;
+    }
+    .head-2 .logo{
+        margin: 5px 0 0 40px;
+        justify-content: flex-start;
+        display: flex;
+    }
+    .heder-left{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .banner-content{
+        padding:120px 0 30px 0;
+    }
+    .banner-content h1{
+        margin:20px 0 20px;
+        padding: 0 10px;
+        line-height: 60px;
+    }
+    .banner-content span{
+        padding: 5px 15px;
+    }
+    .banner{
+        background-size: 404px;
+        background-position: -220px -200px;
+        top:0;
+        left:0;
+    }
+    .btn1{
+        padding:10px 20px;
+    }
+    .p-1-img img:first-child{
+        width: 451px;
+    }
+    .p-1-img::after{
+        width:417px;
+        height:417px;
+        left:22%;
+    }
+    .p-1-img-2{
+        width: 64px;
+    }
+    .p-1-img-3{
+        width: 132px;
+    }
+    .banner-2 {
+        margin-left:30px;
+    }
+    .banner-2 h2{
+        line-height: 70px;
+    }
+    .banner-2-img img{
+        width: 153px;
+    }
+    .p-3-img img{
+        width: 330.33px;
+    }
+    .banner-2 .thought h2{
+        font-size:50px;
+    }
+    .about-text {
+        margin-top: -40px;
+    }
+    .about-1 .about-text h3{
+        margin-top: 0px;
+        font-size: 47px;
+    }
+    .about-1 .about-text span{
+        font-size: 20px;
+        margin: 15px 0 ;
+    }
+    .about-1 .about-text p{
+        font-size: 14px;
+    }
+    .about-1 .about-text img{
+        margin:40px 0 0 0;
+    }
+    .about-1{
+        background-position:-550px 90px;
+    }
+    .p-3-img img{
+        width: 330px;
+        margin-left: 2px;
+    }
+    .about-text{
+        text-align: left;
+    }
+    .about-1 .about-text h3{
+        font-size: 47px;
+    }
+    .about-1 .about-text span{
+        font-size: 20px;
+        margin: 0    0 ;
+        padding: 30px 0px ;
+    }
+    .about-1 .about-text p{
+        font-size: 14px;
+        margin: 0;
+        padding-right: 40px;
+    }
+    .about-1 .about-text img{
+        margin-top: 65px;
+    }
+    .down-arrow {
+        margin:50px auto;
+    }
+    .about-2 .book-email{
+        padding: 20px 33px;
+        margin: 0 auto;
+        text-align: left;
+        flex-direction:row;
+    }
+    .book-email h3{
+        font-size: 47px;
+        padding: 0 ;
+    }
+    .book-email p{
+        font-size:14px;
+        padding: 30px 0;
+    }
+    label {
+      font-size:20px;
+    }
+    .about-row h2{
+        font-size:45px;
+        padding: 32px;
+        margin-top: 50px;
+        text-align: left;
+    }
+    .services-row-1{
+        width: 100%;
+        background-size: contain;
+        padding: 120px 0 50px 0;
+        background-position:0px 0px;
+    }
+    .services-cantenet{
+        margin: 30px 0 0 120px;
+    }
+    .s-c-1{
+        margin-right: 80px;
+    }
+    .services-cantenet h3{
+        font-size: 31px;
+        width:110%;
+        margin-bottom:25px;
+        padding-bottom:15px;
+    
+    }
+    .services-cantenet h3 i{
+        font-size:12px;
+        margin: 0 20px 0 0;
+        
+    }
+    .services-cantenet span{
+        font-size: 14px;
+    }
+    .sevice-2{
+        border-radius:15px;
+        margin:100px 0;
+    }
+    .sevice-2-bg{
+        padding: 0 33px ;
+        margin: 0 12.5px;
+    }
+    .sevice-2-img{
+        width: 294.89px;
+        margin:-120px 0 25px 25px;
+    }
+    .services-content-2{
+        padding: 55px 35px 55px 20px;
+    }
+    .services-content-2 h2{
+        font-size: 47px;
+        padding: 0 0 0 22px;
+    }
+    .services-content-2 h5{
+        font-size: 17px;
+        padding: 10px 22px 20px 22px;
+    }
+    .services-content-2 p{
+        font-size: 14px;
+        padding: 20px 22px 10px 22px;
+    }
+    .services-content-2-img{
+        width:280px;
+        padding:30px 0;
+        margin-left: 20px;
+    }
+    .services-content-2-img img{
+        width: 277px;
+    }
+    .graph-main {
+        padding: 50px 7% 25px 7%;
+    }
+    .graph-content p{
+        font-size: 20px;
+    }
+    .progress-line ul {
+        font-size: 13px;
+    }
+    .progress-line {
+        padding: 0px 0px;
+    }
+    .Popural-guides-img{
+        display: contents;
+    }
+    .Popural-guides-img img{
+        margin-top: 70px;
+        width: 95%;
+    }
+    .Popural-guides-content{
+        justify-content: center;
+        display: grid;
+        padding-left: 0px;
+    }
+    .guides-img-0{
+        margin: 10px 0;
+    }
+    .upcoming-seminar{
+        padding: 60px 40px;
+    }
+    .upcoming-seminar-head h2{
+        font-size: 41px;
+    }
+    .seminar-content{
+        padding-left: 0px;
+        font-size: 15px;
+    }
+    .seminar-date{
+        padding: 25px 0;
+        border-right: 1px solid rgba(109, 131, 134, 0.15);
+    }
+    .seminar-date h2{
+        font-size: 47px;
+    }
+    .seminar-date span{
+        font-size: 14px;
+    }
+    .seminar-img-1 img{
+        width: 145px;
+    }
+    .seminar-content p i {
+        font-size: 30px;
+        padding: 0 0 5px 0px;
+    }
+    .Coaching-scheduale-2-head h2{
+        font-size: 47px;
+    }
+    .Coaching-scheduale-2-head p{
+        font-size: 14px;
+    }
+    
+    .review-bottom{
+        padding:20px 0;
+    }
+    .review-content p{
+        padding:0 80px;
+        font-size: 15px;
+    }
+    .contact-img img{
+        width: 188px;
+    }
+    .contact-form form input, textarea{
+        font-size: 20px;
+    }
+    .contact-form button{
+        font-size: 20px;
+    }
+    .lg-wrap{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .contact-img img{
+        margin-bottom: -300px;
+    }
+    .contact-1{
+        padding: 0;
+    }
+}
+@media(min-width:992px){
+    .col-lg-1{
+        width: 8.33%;
+    }
+    .col-lg-2{
+        width: 16.66%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-10{
+        width: 83.33%;
+    }
+    .col-lg-11{
+        width: 91.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+    :root{
+        --fs-14:14px;
+        --fs-16:10px;
+        --fs-20:15px;
+        --fs-22:16px;
+        --fs-24:24px;
+        --fs-36:36px;
+        --fs-55:55px;
+        --fs-70:52px;
+    }
+    
+    .md-text-center{
+        text-align: center;
+    }
+    .lg-text-left{
+        text-align: left;
+    }
+    .d-lg-none{
+        display: none;
+    }
+    .d-lg-flex{
+        display: flex;
+    }
+    .head-2{
+        position: fixed;
+    }
+    .hide-0{
+        width: 252px;
+        height: 700px;
+        top:   33px;
+        left: -77px; 
+    }
+    nav ul li {
+        font-size: 16px;
+    }
+    nav .icon a i{
+        font-size: 16px;
+    }
+    .banner-content{
+        padding:0px 0 0px 0;
+        margin:50px 0 0 0;
+    }
+    .banner-content-1{
+        margin:140px 0 0 35px;
+    }
+    .banner-content h1{
+        margin:20px 0 20px;
+        padding: 0  0px;
+        line-height: 60px;
+        font-weight: var(--fw-500);
+    }
+    .banner-content span{
+        padding: 5px 15px;
+    }
+    .banner{
+        background-size: 523px;
+        background-position: -260px -260px;
+        top:0;
+        left:0;
+    }
+    .btn1{
+        padding:10px 20px;
+        font-weight: var(--fw-500);
+    }
+    .banner-content p{
+        font-size:var(--fs-20);
+        text-transform:capitalize;
+        margin:15px 0; 
+        padding: 0 50px 0 0; 
+    }
+    .slide-img-1{
+        width: 265px;
+    }
+    .slide-img-2{
+        width: 72px;
+    }
+    .p-1-img{
+        margin-left: -50px;
+    }
+    .p-1-img img:first-child{
+        width: 511px;
+    }
+    .p-1-img::after{
+        width:510px;
+        height:510px;
+        left: 0%;
+    }
+    .p-1-img-2{
+        width: 85px;
+        left: 0;
+    }
+    .p-1-img-3{
+        width: 172px;
+        right: 0;
+    }
+    .banner-2 {
+        margin-left:60px;
+    }
+    .banner-2 h2{
+        line-height: 70px;
+    }
+    .banner-2-img img{
+        width: 211px;
+    }
+    .banner-2 .thought h2{
+        font-size:70px;
+    }
+    .about-1{
+        background-position:-450px 170px;
+    }
+    .p-3-img img{
+        width: 440px;
+        margin-left: 2px;
+    }
+    .about-text{
+        text-align: left;
+    }
+    .about-1 .about-text h3{
+        margin-top: 43px;
+        font-size: 55px;
+    }
+    .about-1 .about-text span{
+        font-size: 24px;
+        margin: 0    0 ;
+        padding: 35px 0px ;
+    }
+    .about-1 .about-text p{
+        font-size: 16px;
+        margin: 0;
+        padding-right: 40px;
+    }
+    .about-1 .about-text img{
+        margin-top: 65px;
+    }
+    .down-arrow {
+        margin:50px auto;
+    }
+    .about-2 .book-email{
+        padding: 80px 0 40px 75.18px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .book-email h3{
+        font-size: 55px;
+        padding: 0 ;
+    }
+    .book-email p{
+        font-size:16px;
+        padding: 30px 70px 30px 0;
+    }
+    label {
+        font-size:24px;
+    }
+    .send-email input[type="email"] {
+        font-size:16px;
+        width:75%;
+    } 
+    .send-email input[type="submit"] {
+        font-size:16px;
+    }
+    .about-row h2{
+        overflow: hidden;
+        font-size:55px;
+        padding: 35px;
+        margin-top: 50px;
+    }
+    .services-row-1{
+        width: 100%;
+        background-size: cover;
+        padding: 120px 0 0px 0;
+        background-position:0px 0px;
+    }
+    .services-cantenet{
+        padding: 160px 0 100px;
+    }
+    .services-cantenet h3{
+        font-size: 36px;
+        width:90%;
+        margin-bottom:25px;
+        padding-bottom:15px;
+    }
+    .services-cantenet h3 i{
+        font-size:12px;
+        margin: 0 20px 0 0;   
+    }
+    .services-cantenet span{
+        font-size: 16px;
+    }
+    .sevice-2{
+        border-radius:15px;
+        margin:100px 0;
+    }
+    .sevice-2-bg{
+        padding: 0 33px ;
+        margin: 0 12.5px;
+    }
+    .sevice-2-img{
+        margin:-170px 0 25px 25px;
+        padding-left: 30px;
+    }
+    .sevice-2-img img{
+        width: 293.53px;
+    }
+    .services-content-2{
+        padding: 55px 35px 55px 20px;
+    }
+    .services-content-2 h2{
+        font-size: 55px;
+        padding: 0 0 0 0;
+    }
+    .services-content-2 h5{
+        font-size: 20px;
+        padding: 10px 22px 20px 0;
+    }
+    .services-content-2 p{
+        font-size: 16px;
+        padding: 20px 22px 10px 0;
+    }
+    .services-content-2-img{
+        width:330px;
+        padding:30px 0;
+        margin-left: 0;
+    }
+    .services-content-2-img img{
+        width: 328.81px;
+    }   
+    .graph-main {
+        padding: 50px 7% 35px 7%;
+    }
+    .graph-content p{
+        font-size: 24px;
+    }
+    .progress-line ul {
+        font-size: 16px;
+    }
+    .progress-line {
+        padding: 0px 0px 20px 0;
+    }
+    .Popural-guides-img{
+        display: contents;
+    }
+    .Popural-guides-img img{
+        margin-top: 70px;
+        width: 95%;
+    }
+    .Popural-guides-content{
+        justify-content: center;
+        display: grid;
+        padding-left: 0px;
+    }
+    .guides-img-0{
+        margin: 10px 0;
+    }
+    .upcoming-seminar{
+        padding: 60px 40px;
+    }
+    .upcoming-seminar-head h2{
+        font-size: 41px;
+    }
+    .seminar-content{
+        padding-left: 0px;
+        font-size: 15px;
+    }
+    .seminar-date{
+        padding: 25px 0;
+        border-right: 1px solid rgba(109, 131, 134, 0.15);
+    }
+    .seminar-date h2{
+        font-size: 55px;
+    }
+    .seminar-date span{
+        font-size: 16px;
+    }
+    .seminar-img-1 img{
+        width: 202px;
+    }
+    .seminar-content p i {
+        font-size: 30px;
+        padding: 0 0 5px 0px;
+    }
+    .seminar-content p{
+        font-size: 20px;
+        padding-left: 7px;
+    }
+    .Coaching-scheduale-2-head h2{
+        font-size: 55px;
+    }
+    .Coaching-scheduale-2-head p{
+        font-size: 16px;
+    }
+    .review-title h2{
+        font-size: 55px;
+    }
+    .review-bottom{
+        padding:20px 0;
+    }
+    .review-content p{
+        padding:0 80px;
+        font-size: 17px;
+    }
+    .contact-img img{
+        width: 258px;
+    }
+    .contact-form form input, textarea{
+        font-size: 20px;
+    }
+    .contact-form button{
+        font-size: 20px;
+    }
+    .lg-wrap{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+@media(min-width:1200px){
+    .col-xl-1{
+        width: 8.33%;
+    }
+    .col-xl-2{
+        width: 16.66%;
+    }
+    .col-xl-3{
+        width: 25%;
+    }
+    .col-xl-4{
+        width: 33.33%;
+    }
+    .col-xl-5{
+        width: 41.66%;
+    }
+    .col-xl-6{
+        width: 50%;
+    }
+    .col-xl-7{
+        width: 58.33%;
+    }
+    .col-xl-8{
+        width: 66.66%;
+    }
+    .col-xl-9{
+        width: 75%;
+    }
+    .col-xl-10{
+        width: 83.33%;
+    }
+    .col-xl-11{
+        width: 91.66%;
+    }
+    .col-xl-12{
+        width: 100%;
+    }
+    :root{
+        --fs-14:14px;
+        --fs-16:13px;
+        --fs-20:18px;
+        --fs-22:20px;
+        --fs-24:24px;
+        --fs-36:36px;
+        --fs-55:55px;
+        --fs-70:63px;
+    }
+    .d-xl-none{
+        display: none;
+    }
+    .d-xl-flex{
+        display: flex;
+    }
+    .xl-text-left{
+        text-align: left;
+    }
+    .justify-left{
+        justify-content: flex-start;
+    }
+    .head-2{
+        position: fixed;
+    }
+    .banner-content{
+        padding:0px 0 0px 0;
+        margin:50px 0 0 0;
+    }
+    .banner-content-1{
+        /* padding:40px 0 0px 0; */
+        margin:140px 0 0 0px;
+    }
+    .banner-content h1{
+        margin:30px 0 20px;
+        padding: 0 0px;
+        line-height: 60px;
+        font-weight: var(--fw-500);
+        font-size: var(--fs-70);
+    }
+    .banner-content span{
+        padding: 5px 15px;
+    }
+    .banner{
+        background-size: 632px;
+        background-position: -320px -320px;
+        top:0;
+        left:0;
+    }
+    .btn1{
+        padding:10px 20px;
+        font-weight: var(--fw-600);
+    }
+    .banner-content p{
+        font-size:var(--fs-20);
+        text-transform:capitalize;
+        margin:30px 0;  
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+    .slide-img-1{
+        width: 321px;
+    }
+    .slide-img-2{
+        width: 88px;
+    }
+    .p-1-img img:first-child{
+        width: 619px;
+    }
+    .p-1-img::after{
+        width:610px;
+        height:610px;
+    }
+    .p-1-img-2{
+        width: 100px;
+    }
+    .p-1-img-3{
+        width: 208px;
+        right: 10%;
+    }
+    .banner-2 {
+        margin-left:60px;
+    }
+    .banner-2 h2{
+        line-height: 70px;
+    }
+    .banner-2-img img{
+        width: 193px;
+    }
+    .banner-2 .thought h2{
+        font-size:70px;
+    }
+    .about-1{
+        background-position:-340px 170px;
+    }
+    .p-3-img img{
+        width: 440px;
+        margin-left: 2px;
+    }
+    .about-text{
+        text-align: left;
+    }
+    .about-1 .about-text h3{
+        margin-top: 40px;
+        font-size: 55px;
+    }
+    .about-1 .about-text span{
+        font-size: 24px;
+        margin: 0    0 ;
+        padding: 35px 40px 35px 0;
+    }
+    .about-1 .about-text p{
+        font-size: 16px;
+        margin: 0;
+        padding-right: 40px;
+    }
+    .about-1 .about-text img{
+        margin-top: 70px;
+    }
+    .down-arrow {
+        margin:50px auto;
+    }
+    .about-2 .book-email{
+        padding: 80px 0 40px 75.18px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .book-email h3{
+        font-size: 55px;
+        padding: 0 ;
+    }
+    .book-email p{
+        font-size:16px;
+        padding: 30px 100px 30px 0;
+    }
+    label {
+        font-size:24px;
+    }
+    .send-email input[type="email"] {
+        font-size:16px;
+        width:75%;
+    } 
+    .send-email input[type="submit"] {
+        font-size:16px;
+    }
+    .about-row h2{
+        margin-top:90px;
+        padding-left: 140px;
+    }
+    .services-row-1{
+        width: 100%;
+        background-size: cover;
+        padding: 120px 0 0px 0;
+        background-position:0px 0px;
+    }
+    .services-cantenet{
+        margin: 30px 0 0 120px;
+    }
+    .services-cantenet h3{
+        font-size: 36px;
+        width:90%;
+        margin-bottom:25px;
+        padding-bottom:15px;
+    }
+    .services-cantenet h3 i{
+        font-size:12px;
+        margin: 0 20px 0 0;
+    }
+    .services-cantenet span{
+        font-size: 16px;
+    }
+    .sevice-2{
+        border-radius:15px;
+        margin:100px 0;
+    }
+    .sevice-2-bg{
+        padding: 0 72px ;
+        margin: 0 30px;
+    }
+    .sevice-2-img{
+        margin:-100px 0 25px 25px;
+        padding-left: 30px;
+    }
+    .graph-main {
+        padding: 50px 7% 35px 7%;
+    }
+    .graph-content p{
+        font-size: 24px;
+    }
+    .progress-line ul {
+        font-size: 16px;
+    }
+    .progress-line {
+        padding: 0px 0px 20px 0;
+    }
+    .upcoming-seminar{
+        padding: 140px 140px;
+    }
+    .upcoming-seminar-head h2{
+        font-size: 41px;
+    }
+    .seminar-content{
+        padding-left: 0px;
+        font-size: 15px;
+    }
+    .seminar-date{
+        padding: 25px 0;
+        border-right: 1px solid rgba(109, 131, 134, 0.15);
+    }
+    .seminar-date h2{
+        font-size: 55px;
+    }
+    .seminar-date span{
+        font-size: 16px;
+    }
+    .seminar-img-1 img{
+        width: 202px;
+    }
+    .seminar-content p i {
+        font-size: 30px;
+        padding: 0 0 5px 0px;
+    }
+    .seminar-content p{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .Coaching-scheduale-2-head h2{
+        font-size: 55px;
+    }
+    .Coaching-scheduale-2-head p{
+        font-size: 16px;
+    }
+    .review-title h2{
+        font-size: 55px;
+    }
+    .review-bottom{
+        padding:20px 0;
+    }
+    .review-content p{
+        padding:0 180px;
+        font-size: 17px;
+    }
+    .contact-img img{
+        width: 258px;
+    }
+}
+@media(min-width:1400px){
+    .col-xxl-1{
+        width: 8.33%;
+    }
+    .col-xxl-2{
+        width: 16.66%;
+    }
+    .col-xxl-3{
+        width: 25%;
+    }
+    .col-xxl-4{
+        width: 33.33%;
+    }
+    .col-xxl-5{
+        width: 41.66%;
+    }
+    .col-xxl-6{
+        width: 50%;
+    }
+    .col-xxl-7{
+        width: 58.33%;
+    }
+    .col-xxl-8{
+        width: 66.66%;
+    }
+    .col-xxl-9{
+        width: 75%;
+    }
+    .col-xxl-10{
+        width: 83.33%;
+    }
+    .col-xxl-11{
+        width: 91.66%;
+    }
+    .col-xxl-12{
+        width: 100%;
+    }
+    :root{
+        --fs-14:14px;
+        --fs-16:16px;
+        --fs-20:20px;
+        --fs-22:22px;
+        --fs-24:24px;
+        --fs-36:36px;
+        --fs-55:55px;
+        --fs-70:70px;
+    }
+    .d-xxl-none{
+        display: none;
+    }
+    .d-xxl-flex{
+        display: flex;
+    }
+    .xxl-text-left{
+        text-align: left;
+    }
+    .justify-left{
+        justify-content: flex-start;
+    }
+    .logo-1 img{
+        margin:50px 0;
+        width: 90px;
+    }
+    /* .banner-content-1 {
+         padding: 40px 0 0px 0; 
+         margin: 140px 0 0 10px; 
+     }  */
+    .banner-content{
+        padding:0px 0 0px 0;
+        margin:0px 0 0 0;
+    }
+    .banner-content h1 span{
+        padding:0;
+    }
+    .banner-content h1{
+        font-size:var(--fs-70);
+        line-height:74px;
+    }
+    .banner-content p{
+        font-size:var(--fs-20);
+    }
+    .btn1{
+        font-size:var(--fs-22);
+        padding:16px 30px;
+        font-weight:var(--fw-700);
+    }
+    .slide-img-1{
+        width: 358px;
+    }
+    .slide-img-2{
+        width: 98px;
+    }
+    .p-1-img-3{
+        right: 5%;
+    }
+    .banner-2 {
+        margin-left:60px;
+    }
+    .banner-2-img img{
+        margin-left: 15px;
+    }
+    .p-3-img img{
+        width: 440px;
+        margin-left: 2px;
+    }
+    .about-1{
+        background-position:-110px 170px;
+    }
+    .about-text{
+        text-align: left;
+    }
+    .about-1 .about-text h3{
+        margin-top: 30px;
+        font-size: 55px;
+    }
+    .about-1 .about-text span{
+        font-size: 24px;
+        margin: 25px 0 ;
+        padding-right: 1px;
+    }
+    .about-1 .about-text p{
+        font-size: 16px;
+        margin: 10px 0; 
+        padding-right: 1px;
+    }
+    .about-1 .about-text img{
+        margin-top: 100px;
+    }
+    .down-arrow {
+        margin:50px auto;
+    }
+    .about-2 .book-email{
+        padding: 80px 0px 40px 75.18px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .book-email h3{
+        font-size: 55px;
+        padding: 0 ;
+    }
+    .book-email p{
+        font-size:16px;
+        padding: 30px 100px 30px 0;
+    }
+    label {
+        font-size:24px;
+    }
+    .send-email input[type="email"] {
+        font-size:16px;
+        width:75%;
+    } 
+    .send-email input[type="submit"] {
+        font-size:16px;
+    }
+    .services-row-1{
+        /* overflow: hidden; */
+        width: 100%;
+        background-size: cover;
+        padding: 120px 0 0px 0;
+        background-position:0px 0px;
+    }
+    .services-cantenet{
+        margin: 430px 0 20px 120px;
+        /* padding-bottom: 250px;    */
+    }
+    .services-cantenet h3{
+        font-size: 36px;
+        width:90%;
+        margin-bottom:25px;
+        padding-bottom:15px;
+    }
+    .services-cantenet h3 i{
+        font-size:12px;
+        margin: 0 20px 0 0; 
+    }
+    .services-cantenet span{
+        font-size: 16px;
+    }
+    .sevice-2-bg{
+        padding: 0 0 0 65px;
+        margin: 0 0 0 20px;
+    }
+    .sevice-2-img{
+        margin:-180px 0 25px 25px;
+        padding-left: 30px;
+    }
+    .sevice-2-img img{
+        width:354px;
+    }
+    .graph-main {
+        padding: 50px 7% 35px 7%;
+    }
+    .graph-content p{
+        font-size: 24px;
+    }
+    .progress-line ul {
+        font-size: 16px;
+    }
+    .progress-line {
+        padding: 0px 0px 20px 0;
+    }
+    .upcoming-seminar{
+        padding: 80px ;
+    }
+    .upcoming-seminar{
+        padding: 140px 140px;
+    }
+    .upcoming-seminar-head h2{
+        font-size: 55px;
+    }
+    .seminar-content{
+        padding-left: 0px;
+        font-size: 15px;
+    }
+    .seminar-date{
+        padding: 25px 0;
+        border-right: 1px solid rgba(109, 131, 134, 0.15);
+    }
+    .seminar-date h2{
+        font-size: 55px;
+    }
+    .seminar-date span{
+        font-size: 16px;
+    }
+    .seminar-img-1 img{
+        width: 244px;
+    }
+    .seminar-content p i {
+        font-size: 30px;
+        padding: 0 0 5px 0px;
+    }
+    .seminar-content p{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .flex {
+        justify-content:space-between;
+        display: flex;
+    }
+    .Coaching-scheduale-3-img{
+        transition: 0.4s all ease-in-out;
+        display: flex;
+        width: 100%;
+        height: 100%;	
+    }
+    .c-s-3-img-1 img:hover{ 
+        transform: scale(1.2);
+        overflow: hidden;
+    }
+    .head{
+        background-color:var(--head-color);
+        height:100vh;
+        position:sticky;
+        top:0;
+        text-align:center;
+        overflow-Y:hidden;
+    }
+    .head img{
+        padding:70px 0;
+    }
+    .head nav ul li a{
+        color:var(--black-600);
+        font-family:var(--inter);
+        font-weight:var(--fw-600);
+        font-size:var(--fs-16);
+        margin:10px 0;
+        
+    }
+    .head nav ul li:first-child a{
+        color:var(--primary-color);
+    }
+    .head nav ul li a:hover{
+        color:var(--primary-color);
+    }
+    .head nav ul li{
+        padding:10px 0;
+        border-bottom:1px solid var(--black-800)
+    }
+    .button{
+        border:0;
+    }
+    .btn{
+        border:0;
+        color:var(--primary-color);
+        margin:20px 0;
+        padding:12px 20px;
+        top:0;
+        border-radius:70px;
+        background-color:#2c464a;
+        
+    }
+    
+    .btn:hover{
+        background-color:var(--primary-color);
+        color:var(--black-color)
+    }
+    p{
+        color:var(--white-color);
+        padding:30px 0 20px 0;
+        line-height:1.5;
+    }
+    .icon {
+        position:absolute;
+        bottom:0;
+        left:50%;
+        color:var(--white-color);
+        transform:translateX(-50%);
+        margin:20px 0;
+        letter-spacing:4px;
+        cursor:pointer;
+    }
+    .icon i{
+        color:var(--white-color);
+    }
+    .icon i:hover{
+        color: var(--primary-color);
+    }
+}
